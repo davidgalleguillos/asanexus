@@ -1,0 +1,698 @@
+[
+  {
+    "id": "AUDIT-1775136073845-642",
+    "timestamp": "2026-04-02T13:21:13.845Z",
+    "severity": "CRITICAL",
+    "component": "SERVER-CORE",
+    "description": "Uncaught Exception: listen EADDRINUSE: address already in use :::3000",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775150029116-618",
+    "timestamp": "2026-04-02T17:13:49.116Z",
+    "severity": "HIGH",
+    "component": "AGENT-LOOP",
+    "description": "Loop Error: Anthropic API Error: 404 {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-3-5-sonnet-20241022\"},\"request_id\":\"req_011CZfKVqXqPJ5AG7Tu5y29U\"}",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775150210742-82",
+    "timestamp": "2026-04-02T17:16:50.742Z",
+    "severity": "HIGH",
+    "component": "AGENT-LOOP",
+    "description": "Loop Error: Anthropic API Error: 404 {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-4-6-sonnet-latest\"},\"request_id\":\"req_011CZfKjEEC97kshQAR3uEnc\"}",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775150220059-881",
+    "timestamp": "2026-04-02T17:17:00.059Z",
+    "severity": "HIGH",
+    "component": "AGENT-LOOP",
+    "description": "Loop Error: Anthropic API Error: 404 {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-4-6-sonnet-latest\"},\"request_id\":\"req_011CZfKjv45YSg2o9WzVebVs\"}",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775152545251-250",
+    "timestamp": "2026-04-02T17:55:45.252Z",
+    "severity": "HIGH",
+    "component": "AGENT-LOOP",
+    "description": "Loop Error: Cannot read properties of undefined (reading 'replace')",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775155952614-869",
+    "timestamp": "2026-04-02T18:52:32.614Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "System Log: La configuraci�n autom�tica de WLAN detect� un nivel de conectividad limitado; se va a intentar la r...",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775155952616-49",
+    "timestamp": "2026-04-02T18:52:32.616Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "System Log: Tipo de recuperaci�n: 4...",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775155952617-508",
+    "timestamp": "2026-04-02T18:52:32.617Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "System Log: C�digo de error: 0x0...",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775155952619-874",
+    "timestamp": "2026-04-02T18:52:32.619Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "Sinapsis Aisladas: 15 archivos huérfanos detectados (ej. restart_nexus.ps1)",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775155952622-809",
+    "timestamp": "2026-04-02T18:52:32.623Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "Conflicto de Puerto: Proceso PID 2596 ocupando el puerto 3000. Intentando liberación...",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775155952625-945",
+    "timestamp": "2026-04-02T18:52:32.625Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "Auto-Reparación: Puerto 3000 liberado (PID 2596 finalizado).",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775155952628-216",
+    "timestamp": "2026-04-02T18:52:32.628Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "Cobertura de Tests: 14 módulos en /src no tienen pruebas unitarias (.test.js).",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775157639801-85",
+    "timestamp": "2026-04-02T19:20:39.801Z",
+    "severity": "HIGH",
+    "component": "AGENT-LOOP",
+    "description": "Loop Error: Critical Error: Todos los modelos candidatos fallaron (claude-sonnet-4-6, claude-opus-4-6, claude-sonnet-4-5-20250929)",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775157819045-766",
+    "timestamp": "2026-04-02T19:23:39.045Z",
+    "severity": "HIGH",
+    "component": "AGENT-LOOP",
+    "description": "Loop Error: Critical Error: Todos los modelos candidatos fallaron ()",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775157846550-499",
+    "timestamp": "2026-04-02T19:24:06.550Z",
+    "severity": "HIGH",
+    "component": "AGENT-LOOP",
+    "description": "Loop Error: Critical Error: Todos los modelos candidatos fallaron ()",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775157868474-901",
+    "timestamp": "2026-04-02T19:24:28.474Z",
+    "severity": "HIGH",
+    "component": "AGENT-LOOP",
+    "description": "Loop Error: Critical Error: Todos los modelos candidatos fallaron ()",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775179968739-125",
+    "timestamp": "2026-04-03T01:32:48.739Z",
+    "severity": "HIGH",
+    "component": "AGENT-LOOP",
+    "description": "Loop Error: Critical Error: Todos los modelos candidatos fallaron (claude-sonnet-4-6, claude-opus-4-6, claude-sonnet-4-5-20250929)",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775180714478-39",
+    "timestamp": "2026-04-03T01:45:14.479Z",
+    "severity": "HIGH",
+    "component": "AGENT-LOOP",
+    "description": "Loop Error: Connection error.",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775180938468-877",
+    "timestamp": "2026-04-03T01:48:58.468Z",
+    "severity": "HIGH",
+    "component": "AGENT-LOOP",
+    "description": "Loop Error: Critical Error: Todos los modelos candidatos fallaron (claude-sonnet-4-6, claude-opus-4-6, claude-sonnet-4-5-20250929)",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775181099962-372",
+    "timestamp": "2026-04-03T01:51:39.962Z",
+    "severity": "HIGH",
+    "component": "AGENT-LOOP",
+    "description": "Loop Error: intentLayer.recruitNodes is not a function",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775181219060-891",
+    "timestamp": "2026-04-03T01:53:39.060Z",
+    "severity": "HIGH",
+    "component": "AGENT-LOOP",
+    "description": "Loop Error: intentLayer.recruitNodes is not a function",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775181237479-929",
+    "timestamp": "2026-04-03T01:53:57.479Z",
+    "severity": "HIGH",
+    "component": "AGENT-LOOP",
+    "description": "Loop Error: intentLayer.recruitNodes is not a function",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775185276383-585",
+    "timestamp": "2026-04-03T03:01:16.383Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "System Log: La resoluci�n de nombres para el nombre mtalk.google.com agot� el tiempo de espera despu�s de que ni...",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775185276385-335",
+    "timestamp": "2026-04-03T03:01:16.385Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "System Log: La resoluci�n de nombres para el nombre mobile.events.data.microsoft.com agot� el tiempo de espera d...",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775185276386-587",
+    "timestamp": "2026-04-03T03:01:16.386Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "System Log: La resoluci�n de nombres para el nombre self.events.data.microsoft.com agot� el tiempo de espera des...",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775185276388-181",
+    "timestamp": "2026-04-03T03:01:16.388Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "Sinapsis Aisladas: 1 archivos huérfanos detectados (ej. OK)",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775185276389-425",
+    "timestamp": "2026-04-03T03:01:16.389Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "Conflicto de Puerto: Proceso PID 9028 ocupando el puerto 3000. Intentando liberación...",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775185276390-57",
+    "timestamp": "2026-04-03T03:01:16.390Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "Auto-Reparación: Puerto 3000 liberado (PID 9028 finalizado).",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775188876328-652",
+    "timestamp": "2026-04-03T04:01:16.328Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "System Log: La resoluci�n de nombres para el nombre mtalk.google.com agot� el tiempo de espera despu�s de que ni...",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775188876331-957",
+    "timestamp": "2026-04-03T04:01:16.331Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "System Log: La resoluci�n de nombres para el nombre mobile.events.data.microsoft.com agot� el tiempo de espera d...",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775188876333-264",
+    "timestamp": "2026-04-03T04:01:16.333Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "System Log: La resoluci�n de nombres para el nombre self.events.data.microsoft.com agot� el tiempo de espera des...",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775188876334-570",
+    "timestamp": "2026-04-03T04:01:16.334Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "Sinapsis Aisladas: 1 archivos huérfanos detectados (ej. OK)",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775188876336-495",
+    "timestamp": "2026-04-03T04:01:16.336Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "Conflicto de Puerto: Proceso PID 4608 ocupando el puerto 3000. Intentando liberación...",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775188876338-657",
+    "timestamp": "2026-04-03T04:01:16.338Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "Auto-Reparación: Puerto 3000 liberado (PID 4608 finalizado).",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775192476364-704",
+    "timestamp": "2026-04-03T05:01:16.364Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "System Log: La resoluci�n de nombres para el nombre mtalk.google.com agot� el tiempo de espera despu�s de que ni...",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775192476365-281",
+    "timestamp": "2026-04-03T05:01:16.365Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "System Log: La resoluci�n de nombres para el nombre mobile.events.data.microsoft.com agot� el tiempo de espera d...",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775192476367-882",
+    "timestamp": "2026-04-03T05:01:16.367Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "System Log: La resoluci�n de nombres para el nombre self.events.data.microsoft.com agot� el tiempo de espera des...",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775192476369-653",
+    "timestamp": "2026-04-03T05:01:16.369Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "Sinapsis Aisladas: 1 archivos huérfanos detectados (ej. OK)",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775192476370-187",
+    "timestamp": "2026-04-03T05:01:16.370Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "Conflicto de Puerto: Proceso PID 10436 ocupando el puerto 3000. Intentando liberación...",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775192476371-578",
+    "timestamp": "2026-04-03T05:01:16.371Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "Auto-Reparación: Puerto 3000 liberado (PID 10436 finalizado).",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775196076358-788",
+    "timestamp": "2026-04-03T06:01:16.359Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "System Log: La resoluci�n de nombres para el nombre mtalk.google.com agot� el tiempo de espera despu�s de que ni...",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775196076360-206",
+    "timestamp": "2026-04-03T06:01:16.360Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "System Log: La resoluci�n de nombres para el nombre mobile.events.data.microsoft.com agot� el tiempo de espera d...",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775196076362-334",
+    "timestamp": "2026-04-03T06:01:16.362Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "System Log: La resoluci�n de nombres para el nombre self.events.data.microsoft.com agot� el tiempo de espera des...",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775196076364-179",
+    "timestamp": "2026-04-03T06:01:16.364Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "Sinapsis Aisladas: 1 archivos huérfanos detectados (ej. OK)",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775196076366-703",
+    "timestamp": "2026-04-03T06:01:16.366Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "Conflicto de Puerto: Proceso PID 9132 ocupando el puerto 3000. Intentando liberación...",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775196076367-497",
+    "timestamp": "2026-04-03T06:01:16.368Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "Auto-Reparación: Puerto 3000 liberado (PID 9132 finalizado).",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775199676372-480",
+    "timestamp": "2026-04-03T07:01:16.372Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "System Log: La resoluci�n de nombres para el nombre mtalk.google.com agot� el tiempo de espera despu�s de que ni...",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775199676374-592",
+    "timestamp": "2026-04-03T07:01:16.374Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "System Log: La resoluci�n de nombres para el nombre mobile.events.data.microsoft.com agot� el tiempo de espera d...",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775199676375-448",
+    "timestamp": "2026-04-03T07:01:16.375Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "System Log: La resoluci�n de nombres para el nombre self.events.data.microsoft.com agot� el tiempo de espera des...",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775199676376-810",
+    "timestamp": "2026-04-03T07:01:16.377Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "Sinapsis Aisladas: 1 archivos huérfanos detectados (ej. OK)",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775199676378-267",
+    "timestamp": "2026-04-03T07:01:16.378Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "Conflicto de Puerto: Proceso PID 8224 ocupando el puerto 3000. Intentando liberación...",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775199676381-820",
+    "timestamp": "2026-04-03T07:01:16.381Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "Auto-Reparación: Puerto 3000 liberado (PID 8224 finalizado).",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775203276369-47",
+    "timestamp": "2026-04-03T08:01:16.369Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "System Log: La resoluci�n de nombres para el nombre mtalk.google.com agot� el tiempo de espera despu�s de que ni...",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775203276372-453",
+    "timestamp": "2026-04-03T08:01:16.372Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "System Log: La resoluci�n de nombres para el nombre mobile.events.data.microsoft.com agot� el tiempo de espera d...",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775203276373-797",
+    "timestamp": "2026-04-03T08:01:16.373Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "System Log: La resoluci�n de nombres para el nombre self.events.data.microsoft.com agot� el tiempo de espera des...",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775203276375-363",
+    "timestamp": "2026-04-03T08:01:16.375Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "Sinapsis Aisladas: 1 archivos huérfanos detectados (ej. OK)",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775203276377-49",
+    "timestamp": "2026-04-03T08:01:16.377Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "Conflicto de Puerto: Proceso PID 15996 ocupando el puerto 3000. Intentando liberación...",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775203276378-497",
+    "timestamp": "2026-04-03T08:01:16.378Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "Auto-Reparación: Puerto 3000 liberado (PID 15996 finalizado).",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775206876373-707",
+    "timestamp": "2026-04-03T09:01:16.373Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "System Log: La resoluci�n de nombres para el nombre mtalk.google.com agot� el tiempo de espera despu�s de que ni...",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775206876374-497",
+    "timestamp": "2026-04-03T09:01:16.374Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "System Log: La resoluci�n de nombres para el nombre mobile.events.data.microsoft.com agot� el tiempo de espera d...",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775206876376-789",
+    "timestamp": "2026-04-03T09:01:16.376Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "System Log: La resoluci�n de nombres para el nombre self.events.data.microsoft.com agot� el tiempo de espera des...",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775206876377-798",
+    "timestamp": "2026-04-03T09:01:16.377Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "Sinapsis Aisladas: 1 archivos huérfanos detectados (ej. OK)",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775206876379-200",
+    "timestamp": "2026-04-03T09:01:16.379Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "Conflicto de Puerto: Proceso PID 7544 ocupando el puerto 3000. Intentando liberación...",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775206876381-542",
+    "timestamp": "2026-04-03T09:01:16.382Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "Auto-Reparación: Puerto 3000 liberado (PID 7544 finalizado).",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775210476392-533",
+    "timestamp": "2026-04-03T10:01:16.392Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "System Log: La resoluci�n de nombres para el nombre mtalk.google.com agot� el tiempo de espera despu�s de que ni...",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775210476393-936",
+    "timestamp": "2026-04-03T10:01:16.393Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "System Log: La resoluci�n de nombres para el nombre mobile.events.data.microsoft.com agot� el tiempo de espera d...",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775210476395-955",
+    "timestamp": "2026-04-03T10:01:16.395Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "System Log: La resoluci�n de nombres para el nombre self.events.data.microsoft.com agot� el tiempo de espera des...",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775210476396-96",
+    "timestamp": "2026-04-03T10:01:16.396Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "Sinapsis Aisladas: 1 archivos huérfanos detectados (ej. OK)",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775210476398-409",
+    "timestamp": "2026-04-03T10:01:16.398Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "Conflicto de Puerto: Proceso PID 16540 ocupando el puerto 3000. Intentando liberación...",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775210476399-47",
+    "timestamp": "2026-04-03T10:01:16.399Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "Auto-Reparación: Puerto 3000 liberado (PID 16540 finalizado).",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775214076406-787",
+    "timestamp": "2026-04-03T11:01:16.406Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "System Log: La resoluci�n de nombres para el nombre mtalk.google.com agot� el tiempo de espera despu�s de que ni...",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775214076409-107",
+    "timestamp": "2026-04-03T11:01:16.409Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "System Log: La resoluci�n de nombres para el nombre mobile.events.data.microsoft.com agot� el tiempo de espera d...",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775214076411-728",
+    "timestamp": "2026-04-03T11:01:16.411Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "System Log: La resoluci�n de nombres para el nombre self.events.data.microsoft.com agot� el tiempo de espera des...",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775214076412-541",
+    "timestamp": "2026-04-03T11:01:16.412Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "Sinapsis Aisladas: 1 archivos huérfanos detectados (ej. OK)",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775214076414-163",
+    "timestamp": "2026-04-03T11:01:16.414Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "Conflicto de Puerto: Proceso PID 17320 ocupando el puerto 3000. Intentando liberación...",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775214076415-519",
+    "timestamp": "2026-04-03T11:01:16.415Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "Auto-Reparación: Puerto 3000 liberado (PID 17320 finalizado).",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775216148529-464",
+    "timestamp": "2026-04-03T11:35:48.529Z",
+    "severity": "HIGH",
+    "component": "AGENT-LOOP",
+    "description": "Loop Error: intentLayer.recruitNodes is not a function",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775218459274-805",
+    "timestamp": "2026-04-03T12:14:19.274Z",
+    "severity": "HIGH",
+    "component": "AGENT-LOOP",
+    "description": "Loop Error: Critical Error: Todos los modelos candidatos fallaron (claude-sonnet-4-6, claude-opus-4-6, claude-sonnet-4-5-20250929)",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775219176735-884",
+    "timestamp": "2026-04-03T12:26:16.735Z",
+    "severity": "HIGH",
+    "component": "AGENT-LOOP",
+    "description": "Loop Error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"messages.2.content.0: unexpected `tool_use_id` found in `tool_result` blocks: toolu_01WrWbgahgrVV52SiSR32L3G. Each `tool_result` block must have a corresponding `tool_use` block in the previous message.\"},\"request_id\":\"req_011CZgqPQt682ZCzQ6V9HbbJ\"}",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775223388631-266",
+    "timestamp": "2026-04-03T13:36:28.631Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "System Log: NtpClient no pudo establecer un sistema del mismo nivel manual para usar como origen de la hora debi...",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775223388633-490",
+    "timestamp": "2026-04-03T13:36:28.634Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "System Log: NtpClient no pudo establecer un sistema del mismo nivel manual para usar como origen de la hora debi...",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775223388635-666",
+    "timestamp": "2026-04-03T13:36:28.635Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "System Log: La resoluci�n de nombres para el nombre dcg.microsoft.com agot� el tiempo de espera despu�s de que n...",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775223388637-309",
+    "timestamp": "2026-04-03T13:36:28.637Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "Sinapsis Aisladas: 29 archivos huérfanos detectados (ej. fabric_v8_pulse.log)",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775223388639-452",
+    "timestamp": "2026-04-03T13:36:28.639Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "Conflicto de Puerto: Proceso PID 15076 ocupando el puerto 3000. Intentando liberación...",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775223388641-594",
+    "timestamp": "2026-04-03T13:36:28.641Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "Auto-Reparación: Puerto 3000 liberado (PID 15076 finalizado).",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775223388642-909",
+    "timestamp": "2026-04-03T13:36:28.642Z",
+    "severity": "HIGH",
+    "component": "NEXUS-HEALTH",
+    "description": "Cobertura de Tests: 14 módulos en /src no tienen pruebas unitarias (.test.js).",
+    "context": {}
+  },
+  {
+    "id": "AUDIT-1775235777294-721",
+    "timestamp": "2026-04-03T17:02:57.294Z",
+    "severity": "HIGH",
+    "component": "AGENT-LOOP",
+    "description": "Loop Error: Connection error.",
+    "context": {}
+  }
+]

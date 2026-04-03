@@ -1,0 +1,13 @@
+{
+  "version": "5.5.0",
+  "autoScanEnabled": false,
+  "semanticCacheEnabled": true,
+  "cascadeRoutingEnabled": true,
+  "backgroundThreadEnabled": true,
+  "autoExecutionEnabled": true,
+  "autonomousMode": "HIGH-ALPHA",
+  "maxDailyCost": 5.0,
+  "currentDailyCost": 0.0,
+  "reflectiveIntelligence": true,
+  "last_audit": "2026-04-02T12:35:50Z"
+}

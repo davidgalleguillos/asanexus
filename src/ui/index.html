@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASA NEXUS | NEURO-SYNC v5.5</title>
+    <!-- [DEPENDENCIAS ELECTRÓNICAS] -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Highlight.js para bloques de código con estilo Nexus -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Capa Neural Dinámica de Fondo -->
+    <canvas id="neuro-canvas"></canvas>
+    
+    <div id="app">
+        <header>
+            <div class="logo"><span class="neural-pulse-dot"></span> 🧠 NEXUS <span id="ver-badge">v7.0 [SINGULARITY]</span></div>
+            <div id="fed-health-shield" class="badge-alt" style="border-color:var(--primary); color:var(--primary);">SALUD SYNC: <span id="fed-health-score-header">100</span>%</div>
+            <div id="active-module" class="badge-alt">MÓDULO: REPOSO</div>
+            <div id="singularity-indicator" class="badge singularity-badge">SINGULARITY: ACTIVE</div>
+            <div id="status-badge" class="badge pulse">LINK ESTABLECIDO</div>
+        </header>
+
+        <main>
+            <div id="left-panel">
+                <div id="visual-monitor">
+                    <h3>SISTEMA SENSORIAL [VISION v4.6]</h3>
+                    <div id="screen-wrapper" style="position:relative; display:flex; justify-content:center; align-items:center; overflow:hidden;">
+                        <img id="last-screenshot" src="assets/asa_logo.png" alt="Neural Visual Feed" style="max-width:80%; max-height:80%; object-fit:contain; opacity:0.8; filter: drop-shadow(0 0 10px rgba(0, 255, 255, 0.5)); transform: scale(1); transition: transform 0.5s ease-out;">
+                        <div class="monitor-overlay">LIVE NEURAL FEED</div>
+                    </div>
+                </div>
+                <div id="intel-tabs-container" style="display:flex; gap:5px; margin-bottom:5px;">
+                    <button class="tab-btn active" data-tab="thinking-console">CONSOLA</button>
+                    <button class="tab-btn" data-tab="intel-panel">INTELIGENCIA [LATENT]</button>
+                </div>
+
+                <div id="thinking-console" class="tab-content active">
+                    <div class="console-header">
+                        <h3>RESONANCIA COGNITIVA</h3>
+                        <span id="think-indicator"></span>
+                    </div>
+                    <div id="thinking-content">...</div>
+                </div>
+
+                <div id="intel-panel" class="tab-content" style="display:none;">
+                    <div class="console-header">
+                        <h3>NEXUS INTEL [LATENT STATE]</h3>
+                        <button id="recon-btn" class="nexus-btn-mini">📡 RECON</button>
+                    </div>
+                    <div id="intel-content" style="flex:1; overflow-y:auto; padding-top:10px;">
+                        <div class="knowledge-card empty">Cargando sinapsis...</div>
+                    </div>
+                </div>
+
+                <!-- Feed de Expertos Permanente (v5.3) -->
+                <div id="federation-module" style="margin-top:20px; background:rgba(79,195,247,0.03); border:1px solid rgba(79,195,247,0.15); border-radius:10px; padding:15px; display:flex; flex-direction:column; height:200px;">
+                    <h3 style="color:var(--primary); font-size:11px; margin-bottom:10px; display:flex; justify-content:space-between;">
+                        <span>📡 FEDERACIÓN DE EXPERTOS</span>
+                        <span id="fed-last-update" style="color:#666; font-weight:normal;">Sincronizando...</span>
+                    </h3>
+                    <div id="federation-feed" style="flex:1; overflow-y:auto; font-size:11px;">
+                        <div class="fed-item" style="color:#666;">Iniciando expertos de bajo consumo...</div>
+                    </div>
+                </div>
+
+                <!-- Secondary Background Thread Panel -->
+                <div id="secondary-console" style="margin-top:20px; background:rgba(0,0,0,0.4); border:1px solid #333; border-radius:10px; padding:15px; height:180px; display:flex; flex-direction:column;">
+                    <div class="console-header" style="border-bottom:1px solid #222; margin-bottom:10px; padding-bottom:5px;">
+                        <h3 style="color:#aaa; font-size:11px;">HILO SECUNDARIO [AUTONOMÍA]</h3>
+                        <span id="think-indicator-secondary" class="think-badge" style="background:#444;"></span>
+                    </div>
+                    <div id="secondary-content" style="flex:1; overflow-y:auto; color:#888; font-size:12px; font-family:monospace; line-height:1.4;">...esperando ciclo inactivo...</div>
+                </div>
+            </div>
+
+            <div id="chat-panel">
+                <div id="chat-history"></div>
+                
+                <div id="usage-stats">
+                    <div class="tokens">Tokens [IN: 0 | OUT: 0 | CACHÉ: 0]</div>
+                    <div id="cost-total">TOTAL: $0.0000</div>
+                </div>
+
+                <div id="input-area">
+                    <div id="file-preview-container"></div>
+                    <textarea id="user-input" placeholder="Definir objetivo para Nexus (ej: optimiza el repositorio o ejecuta flujos web)..."></textarea>
+                    <div class="controls">
+                        <label for="file-upload" class="nexus-btn">📎 FILES API</label>
+                        <input type="file" id="file-upload" style="display:none">
+                        <button id="send-btn" class="nexus-btn" style="margin-left:10px;">🚀 SINCRONIZAR</button>
+                        <button id="clear-memory-btn" class="nexus-btn" style="margin-left:10px;">🗑️ PURGAR</button>
+                        <button id="config-btn" class="nexus-btn" style="margin-left:10px;">⚙️ CONFIG</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <div id="offline-overlay" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(20,0,0,0.85); z-index:9999; flex-direction:column; justify-content:center; align-items:center; text-align:center;">
+        <h1 style="color:var(--accent); font-size:4rem; text-shadow:0 0 20px rgba(255, 62, 62, 0.8);">⚠️</h1>
+        <h2 style="color:var(--accent); font-family:monospace; margin-top:10px;">NEXUS OFFLINE - ENLACE NEURAL PERDIDO</h2>
+        <p style="color:#aaa; font-family:monospace; margin-top:20px;">Esperando reconexión del servidor principal. Verifica si Node.js está corriendo.</p>
+    </div>
+
+    <!-- [SETTINGS MODAL] -->
+    <div id="config-modal" class="modal-overlay" style="display:none;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>NEXUS CORE SETTINGS</h2>
+                <button id="close-modal-btn">✖</button>
+            </div>
+            <div class="modal-body">
+                <div class="setting-group">
+                    <h3>OPTIMIZACIONES IA (FINOPS)</h3>
+                    <label class="toggle-switch">
+                        <div class="toggle-label">Caché Semántico Inteligente<br><small>Reutiliza respuestas para ahorrar tokens</small></div>
+                        <input type="checkbox" id="toggle-cache" checked>
+                        <span class="slider"></span>
+                    </label>
+                    <label class="toggle-switch">
+                        <div class="toggle-label">Routeo en Cascada<br><small>Redirige consultas simples a Tiers Económicos</small></div>
+                        <input type="checkbox" id="toggle-cascade" checked>
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                
+                <div class="setting-group">
+                    <h3>PROTOCOLOS AUTÓNOMOS</h3>
+                    <label class="toggle-switch">
+                        <div class="toggle-label">Hilo Secundario Clandestino<br><small>Agente en background en tiempo inactivo</small></div>
+                        <input type="checkbox" id="toggle-bg" checked>
+                        <span class="slider"></span>
+                    </label>
+                    <label class="toggle-switch">
+                        <div class="toggle-label">Auto-Scan Proactivo<br><small>Analiza y repara el SO al arrancar la app</small></div>
+                        <input type="checkbox" id="toggle-autoscan">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- [CARGA DE MOTORES DE RENDERIZADO] -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.1/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="client.js"></script>
+</body>
+</html>
